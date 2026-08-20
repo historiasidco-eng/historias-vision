@@ -100,20 +100,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cb7d2556-74ef-4a64-bd32-77141d675302/id-preview-52f876e5--c8f2d406-2abf-4adc-88ab-97f82f196adb.lovable.app-1784125726788.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cb7d2556-74ef-4a64-bd32-77141d675302/id-preview-52f876e5--c8f2d406-2abf-4adc-88ab-97f82f196adb.lovable.app-1784125726788.png" },
     ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.png?v=2", type: "image/png" },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      {
-        rel: "preconnect",
-        href: "https://fonts.gstatic.com",
-        crossOrigin: "anonymous",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap",
-      },
-    ],
+   links: [
+  {
+    rel: "icon",
+    type: "image/png",
+    href: "/favicon.png?v=2",
+  },
+  {
+    rel: "apple-touch-icon",
+    href: "/favicon.png?v=2",
+  },
+],
   }),
   shellComponent: RootShell,
   component: RootComponent,
