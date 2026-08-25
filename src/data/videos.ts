@@ -14,7 +14,7 @@ export type VideoSource = {
 
 export const DEMO_VIDEOS: Record<string, VideoSource> = {
   // Commercial
-  "commercial-dua-belibis": { provider: "youtube", id: "gkhJrp13jYw" },
+ "commercial-wardah": { provider: "youtube", id: "hXglYO9bWjI" },
   "commercial-sunpride": { provider: "youtube", id: "VrMel_6tR-s" },
   "commercial-sanqing": { provider: "youtube", id: "nRMczp-ZUdw" },
 
@@ -30,7 +30,10 @@ export const DEMO_VIDEOS: Record<string, VideoSource> = {
 
   // Short Film
   "short-waaqimusholah": { provider: "youtube", id: "XsvQMInsQxQ" },
-  "short-katanya-mau-berangkat-bareng": { provider: "youtube", id: "KLqbiSWDcW4" },
+"short-adrielle-iman-my-wife": {
+  provider: "youtube",
+  id: "SDx1cS8sTRc",
+},
   "short-puskurjar-telaah-makna": { provider: "youtube", id: "-qo2qCqNA4Y" },
 
   // AI UGC
