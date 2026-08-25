@@ -73,14 +73,14 @@ type Seed = {
 const CATEGORY_SEEDS: Record<ProjectCategory, Seed[]> = {
   Commercial: [
     {
-      id: "commercial-dua-belibis",
-      brand: "DUA BELIBIS",
-      title: "Commercial Film",
-      type: "Commercial",
-      year: "2025",
-      href: "https://youtu.be/gkhJrp13jYw",
-      featured: true,
-    },
+  id: "commercial-wardah",
+  brand: "WARDAH",
+  title: "Commercial Film",
+  type: "Commercial",
+  year: "2025",
+  href: "https://youtu.be/hXglYO9bWjI",
+  featured: true,
+},
     {
       id: "commercial-sunpride",
       brand: "SUNPRIDE",
@@ -162,14 +162,14 @@ const CATEGORY_SEEDS: Record<ProjectCategory, Seed[]> = {
       href: "https://youtu.be/XsvQMInsQxQ",
       featured: true,
     },
-    {
-      id: "short-katanya-mau-berangkat-bareng",
-      brand: "KATANYA MAU BERANGKAT BARENG",
-      title: "Short Film",
-      type: "Short Film",
-      year: "2025",
-      href: "https://youtu.be/KLqbiSWDcW4",
-    },
+   {
+  id: "short-adrielle-iman-my-wife",
+  brand: "ADRIELLE IMAN",
+  title: "My Wife",
+  type: "Short Film",
+  year: "2025",
+  href: "https://youtu.be/SDx1cS8sTRc",
+},
     {
       id: "short-puskurjar-telaah-makna",
       brand: "PUSKURJAR",
